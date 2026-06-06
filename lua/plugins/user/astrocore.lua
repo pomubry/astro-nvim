@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   {
     "AstroNvim/astrocore",
@@ -12,8 +13,8 @@ return {
       },
       options = {
         opt = {
-          relativenumber = false, -- Disable relative numbers
-          number = true, -- Enable absolute numbers
+          relativenumber = true, -- Enable relative numbers
+          number = false, -- Disable absolute numbers
         },
       },
     },
